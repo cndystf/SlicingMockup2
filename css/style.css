@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;800&display=swap');
+
+:root {
+    --c-sc-green: #45b565;
+    --c-sc-red: #ff0000;
+    --c-sc-black: #333333;
+    --c-sc-white: #fff;
+    --c-sc-grey: rgba(51, 51, 51, 0.75);
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+
+/* Bagian 1 | Suwandi */
+
+.bg-light{
+    background-color: var(--c-sc-white) !important;
+}
+
+.nav-item {
+    margin-right: 34px;
+    font-size: 18px;
+}
+.nav-link {
+    color: var(--c-sc-black) !important;
+}
+.active {
+    color: var(--c-sc-green) !important;
+}
+
+
+.hero{
+    margin-top: 100px;
+    height: 500px;
+}
+
+/* animation */
+.alert-animation {
+    color:#ff0000;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: black}
+    50%  {color: white}
+    100% {color: red}
+}
+
+/* .button-animation a{
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes example2 {
+    0%   {margin-left: 0px;}
+    25%  {margin-left: 200px;}
+    50%  {margin-left: 200px;}
+    75%  {margin-left: 200px;}
+    100% {margin-left: 200px;}
+  } */
+
+/* end of animation */
+
+.hero-text h1{
+    max-width: 400px;
+    color: var(--c-sc-black) !important;
+    font-weight: 700;
+    font-size: 42px;
+    /* margin-top: 100px; dikomen dulu :)*/ 
+}
+.hero-text p{
+    max-width: 380px;
+    max-height: 400px;
+    color: var(--c-sc-grey) !important;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+}
+
+.btn-hero{
+    background-color: var(--c-sc-green) !important;
+    color: var(--c-sc-white) !important;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 8px 25px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-items: center;
+}
+
+.hero-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20%;
+}
+
+.info{
+    margin-top: 160px ;
+}
+
+.card{
+    background: var(--c-sc-white) !important;
+    box-shadow: 0px 0px 57px -7px rgba(119, 119, 119, 0.12);
+    border-radius: 24px;
+    height: 230px;
+    border: none;
+}
+
+.title-info{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #555555;
+}
+.total1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #555555;
+}
+.total2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #484848;
+}
+.total3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--c-sc-green) !important;
+}
+.total4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--c-sc-red) !important;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+}
+
+
+
+
+/* Bagian 2 | Wahid */
+.col-5.img-back {
+    flex: 0 0 auto !important;
+    width: 41.66666667% !important;
+    align-self: center!important;
+}
+
+.col.text-desc {
+    align-self: center!important;
+}
+
+.img-bc {
+    display: block;
+    width: 100%;
+}
+
+/* Bagian 3 | Cindy */
+/* prevention part */
+#prevention {
+    padding-top: 50px;
+}
+
+.prevention-caption h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.line-green {
+    width: 10%;
+    margin: 0 auto;
+    border: 2px solid #45b565;
+    opacity: 1;
+}
+
+.prevention-text {
+    text-align: center;
+}
+
+.prevention-content {
+    margin-top: 100px;
+}
+
+.card-caption {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card-text {
+    font-size: 12px;
+    text-align: center;
+}
+
+.img-area {
+    margin-top: -80px;
+    width: max-content;
+}
+
+/* Bagian 4 | Akbar */
+.symptoms .container {
+    max-width: 780px;
+    margin-top: 50px;
+}
+
+.symptoms .image-main {
+    max-width: 470px;
+}
+
+.symptoms .image-virus1 {
+    width: 280px;
+    top: 20%;
+}
+
+.symptoms .image-virus2 {
+    width: 150px;
+    bottom: 20%;
+}
+
+.symptoms .line-green {
+    width: 10%;
+    min-width: 100px;
+    height: 3px;
+    color: #64CF83;
+}
+
+.symptoms .text-gray {
+    color: var(--c-sc-grey);
+}
+
+/* Bagian 5 | Dimas */
+.section-5--item-width {
+    width: 80%;
+}
+
+.section-5--container {
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.section-5--bg {
+    background: #64CF83;
+    bottom: -50%;
+    height: 800px;
+    position: absolute;
+    transform: skew(0deg, -15deg);
+    width: 100%;
+    z-index: 1 !important;
+}
+
+.section-5--content {
+    background: var(--c-sc-white);
+    border-radius: 20px;
+    filter: drop-shadow(0 15px 0px #5BC378) drop-shadow(0 15px 0px #51BB6F);
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    z-index: 10 !important;
+}
+
+.section-5--heading {
+    position: relative !important;
+}
+
+.section-5--heading::after {
+    background: var(--c-sc-green) !important;
+    bottom: -10px;
+    content: " ";
+    height: 4px !important;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 80% !important;
+}
+
+.section-5-text {
+    color: var(--c-sc-grey);
+    margin: 0 auto;
+}
+
+.section-5--img {
+    margin: 0 auto;
+    width: 45%;
+}
+
+.section-5--contact {
+    color: var(--c-sc-grey);
+    position: relative;
+}
+
+.section-5--contact:hover {
+    color: var(--c-sc-grey);
+    cursor: pointer;
+}
+
+.section-5--contact::after {
+    background: var(--c-sc-green) !important;
+    bottom: -10px;
+    content: " ";
+    height: 4px !important;
+    left: 45px;
+    position: absolute;
+    transition: width 0.2s ease-in;
+    width: 0 !important;
+}
+
+.section-5--contact:hover::after {
+    width: 35% !important;
+}
+
+.section-5--contact img {
+    width: 30px;
+}
+
+
+.form-control {
+    background: #F4F4F4 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.form-icon {
+    width: 10px;
+}
+
+@media screen and (max-width: 992px) {
+   
+    .hero{
+        margin-top: 100px;
+        height: 500px;
+        margin-bottom: 500px;
+    }
+    .hero-text h1{
+        max-width: 400px;
+        color: var(--c-sc-black) !important;
+        font-weight: 700;
+        font-size: 42px;
+        margin-top: 100px;
+    }
+    .hero-text p{
+        max-width: 380px;
+        max-height: 400px;
+        color: var(--c-sc-grey) !important;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+    }
+    
+    .btn-hero{
+        background-color: var(--c-sc-green) !important;
+        color: var(--c-sc-white) !important;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 8px 25px;
+        border-radius: 24px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        align-items: center;
+    }
+    
+    .hero-image{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50%;
+    } 
+
+    .card{
+        background: var(--c-sc-white) !important;
+        box-shadow: 0px 0px 57px -7px rgba(119, 119, 119, 0.12);
+        border-radius: 24px;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Bagian 2 | Wahid */
+
+    /* Bagian 3 | Cindy */
+    .col-md-4 {
+        width: 100%;
+    }
+    /* Bagian 4 | Akbar */
+    .symptoms .image-virus1,
+    .symptoms .image-virus2 {
+        display: none;
+    }
+    /* Bagian 5 | Dimas */
+}
+
+@media screen and (max-width: 768px) {
+    /* Bagian 1 | Suwandi */
+    .hero{
+        margin-top: 100px;
+        height: 500px;
+        margin-bottom: 500px;
+    }
+    .hero-text h1{
+        max-width: 400px;
+        color: var(--c-sc-black) !important;
+        font-weight: 700;
+        font-size: 42px;
+        margin-top: 100px;
+    }
+    .hero-text p{
+        max-width: 380px;
+        max-height: 400px;
+        color: var(--c-sc-grey) !important;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+    }
+    
+    .btn-hero{
+        background-color: var(--c-sc-green) !important;
+        color: var(--c-sc-white) !important;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 8px 25px;
+        border-radius: 24px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        align-items: center;
+    }
+    
+    .hero-image{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 20%;
+    } 
+    .card{
+        background: var(--c-sc-white) !important;
+        box-shadow: 0px 0px 57px -7px rgba(119, 119, 119, 0.12);
+        border-radius: 24px;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Bagian 2 | Wahid */
+    .col-5.img-back {
+        flex: 1 0 0% !important;
+        width: 255px !important;
+    }
+
+    .img-bc {
+        display: block;
+        width: 255px !important;
+    }
+
+    .col.text-desc {
+        align-self: center!important;
+    }
+
+    /* Bagian 3 | Cindy */
+    .col-md-4 {
+        width: 100%;
+        margin-top: 100px;
+    }
+    /* Bagian 4 | Akbar */
+
+    /* Bagian 5 | Dimas */
+}
+
+@media screen and (max-width: 576px) {
+    /* Bagian 1 | Suwandi */
+    .hero{
+        margin-top: 100px;
+        height: 500px;
+        margin-bottom: 500px;
+    }
+    .hero-text h1{
+        max-width: 400px;
+        color: var(--c-sc-black) !important;
+        font-weight: 700;
+        font-size: 42px;
+        margin-top: 100px;
+    }
+    .hero-text p{
+        max-width: 380px;
+        max-height: 400px;
+        color: var(--c-sc-grey) !important;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+    }
+    
+    .btn-hero{
+        background-color: var(--c-sc-green) !important;
+        color: var(--c-sc-white) !important;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 8px 25px;
+        border-radius: 24px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        align-items: center;
+    }
+    
+    .hero-image{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 20%;
+    } 
+    .card{
+        background: var(--c-sc-white) !important;
+        box-shadow: 0px 0px 57px -7px rgba(119, 119, 119, 0.12);
+        border-radius: 24px;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Bagian 2 | Wahid */
+
+    /* Bagian 3 | Cindy */
+    .col-md-4 {
+        width: 100%;
+        margin-top: 100px;
+    }
+    /* Bagian 4 | Akbar */
+
+    /* Bagian 5 | Dimas */
+    .section-5--img {
+        width: 65%;
+    }
+
+}
